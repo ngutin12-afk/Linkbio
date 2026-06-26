@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>TinhPro Bio</title>
+
+<style>
+*{
+ box-sizing:border-box;
+}
+
+body{
+ margin:0;
+ height:100vh;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ background:#050505;
+ font-family:Arial;
+ color:white;
+ overflow:hidden;
+}
+
+.bg{
+ position:absolute;
+ width:300%;
+ height:300%;
+ background:linear-gradient(45deg,#00ffff,#ff00ff,#111);
+ animation:move 6s infinite;
+}
+
+.card{
+ position:relative;
+ width:340px;
+ padding:30px;
+ text-align:center;
+ background:#000b;
+ border-radius:30px;
+ box-shadow:0 0 30px #00ffff;
+}
+
+.avatar{
+ width:110px;
+ height:110px;
+ border-radius:50%;
+ border:4px solid #00ffff;
+}
+
+h1{
+ color:#00ffff;
+}
+
+p{
+ color:#ccc;
+}
+
+.btn{
+ display:block;
+ margin:15px;
+ padding:15px;
+ border-radius:20px;
+ background:#ffffff22;
+ color:white;
+ text-decoration:none;
+ transition:.3s;
+}
+
+.btn:hover{
+ background:#00ffff;
+ color:black;
+ transform:scale(1.08);
+}
+
+@keyframes move{
+ 0%{transform:translate(-20%,-20%)}
+ 50%{transform:translate(0,0)}
+ 100%{transform:translate(-20%,-20%)}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<div class="card">
+
+<img class="avatar" src="https://i.imgur.com/7vQ2m5v.png">
+
+<h1>🔥 TINHPRO 🔥</h1>
+
+<p>🎮 Gaming | FF | Anime<br>⚡ Welcome to my bio</p>
+
+<a class="btn" href="https://www.facebook.com/share/1DpWZmcsZY/">Facebook</a>
+
+<a class="btn" href="https://m.me/j/AbY_Mwa1_i2OAYwF/">Messenger</a>
+
+<a class="btn" href="https://zalo.me/g/u5lf214y8jxocurztd1q">Zalo Nhóm</a>
+
+<a class="btn" href="https://zalo.me/0775080216">Zalo Cá Nhân</a>
+
+</div>
+
+</body>
+</html>
